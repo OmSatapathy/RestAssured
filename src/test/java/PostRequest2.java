@@ -11,7 +11,6 @@ import pojo.Outerdata;
 
 public class PostRequest2 {
 
-	
 	@Test
 	public void createproduct() {
 
@@ -20,17 +19,15 @@ public class PostRequest2 {
 
 		Response resp = RestAssured.given().contentType("application/json").body(ds).when()
 				.post("https://api.restful-api.dev/objects").then().extract().response();
-		
+
 		resp.asPrettyString();
-		
+
 		System.out.println(resp.asPrettyString());
-		
-		
-	JsonPath path =	resp.jsonPath();
-	String year = path.getString("data.year");
-	
-	System.out.println(year);
-		
+
+		JsonPath path = resp.jsonPath();
+		String year = path.getString("data.year");
+
+		System.out.println(year);
 
 	}
 

@@ -31,11 +31,13 @@ public class Authtoken {
 
 		Response res = RestAssured.given().header("Authorization", "Bearer " + authtoken).when()
 				.get("https://dummyjson.com/auth/me").then().extract().response();
-		
+
 //		System.out.println(res.prettyPrint());
-		
+
 		String statename = res.jsonPath().getString("address.state");
 		System.out.println(statename);
+
+		System.out.println("^^^^^^^^^");
 	}
 
 }

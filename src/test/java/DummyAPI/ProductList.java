@@ -36,6 +36,8 @@ public class ProductList {
 	public void getProductTags() {
 		Response resp = RestAssured.given().contentType("application/json").when().get("https://dummyjson.com/posts")
 				.then().extract().response();
+		
+		System.out.println(resp.asPrettyString());
 
 		List<Map<String, Object>> lst = resp.jsonPath().getList("posts.reactions");
 

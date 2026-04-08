@@ -5,7 +5,7 @@
     <classes>
       <class name="DummyAPI.ProductList">
         <methods>
-          <include name="getProductTags"/>
+          <include name="fetchHistory"/>
         </methods>
       </class> <!-- DummyAPI.ProductList -->
     </classes>

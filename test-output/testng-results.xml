@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-26T16:02:49 IST" name="Default suite" finished-at="2026-03-26T16:02:52 IST" duration-ms="3454">
+  <suite started-at="2026-04-09T02:13:38 IST" name="Default suite" finished-at="2026-04-09T02:13:42 IST" duration-ms="3926">
     <groups>
     </groups>
-    <test started-at="2026-03-26T16:02:49 IST" name="Default test" finished-at="2026-03-26T16:02:52 IST" duration-ms="3454">
-      <class name="DummyAPI.TestSpectifcation">
-        <test-method is-config="true" signature="requiredSpecification()[pri:0, instance:DummyAPI.TestSpectifcation@1c1bbc4e]" started-at="2026-03-26T16:02:49 IST" name="requiredSpecification" finished-at="2026-03-26T16:02:50 IST" duration-ms="1019" status="PASS">
+    <test started-at="2026-04-09T02:13:38 IST" name="Default test" finished-at="2026-04-09T02:13:42 IST" duration-ms="3926">
+      <class name="DummyAPI.ProductList">
+        <test-method signature="fetchHistory()[pri:0, instance:DummyAPI.ProductList@77c2494c]" started-at="2026-04-09T02:13:38 IST" name="fetchHistory" finished-at="2026-04-09T02:13:42 IST" duration-ms="3835" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- requiredSpecification -->
-        <test-method signature="getUserDetails()[pri:0, instance:DummyAPI.TestSpectifcation@1c1bbc4e]" started-at="2026-03-26T16:02:50 IST" name="getUserDetails" finished-at="2026-03-26T16:02:52 IST" duration-ms="2380" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getUserDetails -->
-      </class> <!-- DummyAPI.TestSpectifcation -->
+        </test-method> <!-- fetchHistory -->
+      </class> <!-- DummyAPI.ProductList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

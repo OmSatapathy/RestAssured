@@ -9,7 +9,6 @@ import io.restassured.response.Response;
 
 public class UserDetails {
 
-	
 	@Test
 	public void getUser() {
 		Response res = RestAssured.given().contentType("application/json").when()
@@ -17,9 +16,7 @@ public class UserDetails {
 
 		Map<String, String> cookies = res.getCookies();
 
-		for (Map.Entry<String, String> ent : cookies.entrySet()) {
-              System.out.println(ent.getKey() + " "+ent.getValue());
-		}
+		System.out.println(cookies);
 
 	}
 

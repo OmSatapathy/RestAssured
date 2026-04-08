@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.testng.annotations.Test;
@@ -29,6 +30,11 @@ public class PostRequest2 {
 
 		System.out.println(year);
 
-	}
+		List<Map<String, Object>> lst = path.getList("data");
+		
+		for(Map<String, Object> mp: lst) {
+			System.out.println(mp);
+		}
 
+	}
 }

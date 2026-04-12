@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-09T02:13:38 IST" name="Default suite" finished-at="2026-04-09T02:13:42 IST" duration-ms="3926">
+  <suite started-at="2026-04-12T15:37:50 IST" name="Default suite" finished-at="2026-04-12T15:37:52 IST" duration-ms="1990">
     <groups>
     </groups>
-    <test started-at="2026-04-09T02:13:38 IST" name="Default test" finished-at="2026-04-09T02:13:42 IST" duration-ms="3926">
-      <class name="DummyAPI.ProductList">
-        <test-method signature="fetchHistory()[pri:0, instance:DummyAPI.ProductList@77c2494c]" started-at="2026-04-09T02:13:38 IST" name="fetchHistory" finished-at="2026-04-09T02:13:42 IST" duration-ms="3835" status="PASS">
+    <test started-at="2026-04-12T15:37:50 IST" name="Default test" finished-at="2026-04-12T15:37:52 IST" duration-ms="1990">
+      <class name="DummyAPI.Verifyproduct">
+        <test-method signature="verifyproduct()[pri:0, instance:DummyAPI.Verifyproduct@59fc684e]" started-at="2026-04-12T15:37:50 IST" name="verifyproduct" finished-at="2026-04-12T15:37:52 IST" duration-ms="1944" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchHistory -->
-      </class> <!-- DummyAPI.ProductList -->
+        </test-method> <!-- verifyproduct -->
+      </class> <!-- DummyAPI.Verifyproduct -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
